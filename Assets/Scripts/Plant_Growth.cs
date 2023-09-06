@@ -16,14 +16,15 @@ public class Plant_Growth : MonoBehaviour
     void Start()
     {
         if(stages == null || stages.Length <= 1 || growth_time == 0) {this.enabled = false; return;}
-        this.Planted();
+        //this.Planted();
         
         
     }
     [ContextMenu("Plant")]
-    void Planted()
+    public void Planted()
     {
-        if(Game_Manager.Instance.plants.Contains(this)) Game_Manager.Instance.plants.Remove(this);
+        var pg = gameObject.GetComponent<Plant_Growth>();
+        if(Game_Manager.Instance.plants.Contains(pg)) Game_Manager.Instance.plants.Remove(pg);
         stage = 0;
         sprite.sprite = stages[0];
         growth_progress = 0;

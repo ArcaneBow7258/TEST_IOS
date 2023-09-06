@@ -78,9 +78,9 @@ public class Inventory_Slot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
                 if(stack <= item.stack_size){
                     donator.stack = 0;
                     donator.item = null;
-                    slot_item_image = null;
+                    slot_item_image.sprite = null;
                 }else{
-                    donator.stack = item.stack_size - stack;
+                    donator.stack =stack -  item.stack_size ;
                     stack = item.stack_size;
                 }
             }
@@ -97,7 +97,12 @@ public class Inventory_Slot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             stack = 0;   
             slot_item_image.gameObject.SetActive(false);
             stack_text.gameObject.SetActive(false);
+        }else if(stack == 0){
+            item = null;
+            slot_item_image.gameObject.SetActive(false);
+            stack_text.gameObject.SetActive(false);
         }else{
+            slot_item_image.sprite = item.inventory_image;
             slot_item_image.gameObject.SetActive(true);
             stack_text.gameObject.SetActive(true);
             stack_text.text = (item.stack_size > 0)  ? stack.ToString() : null;

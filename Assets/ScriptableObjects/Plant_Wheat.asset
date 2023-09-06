@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fb7eee4066387478820a011ba88709, type: 3}
+  m_Name: Plant_Wheat
+  m_EditorClassIdentifier: 
+  id: wheat
+  stack_size: 16
+  inventory_image: {fileID: 989291174, guid: 0b3263871b18ef345a6f211be6b5145b, type: 3}
+  type: 0
+  prefab: {fileID: 2394751341032165898, guid: 8a23ebb42899c2047919a2e6d26395b3, type: 3}
+  altSprites: []
+  size: {x: 1, y: 1}
+  stages: []
+  growth_time: 0

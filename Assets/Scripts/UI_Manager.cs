@@ -18,6 +18,7 @@ public class UI_Manager : MonoBehaviour
     }
     #region buttons
     public void button_build(){
+        if(Game_Manager.Instance == null) return;
         Game_Manager.Instance.game_state = (Game_Manager.Instance.game_state == GameState.building) ? GameState.playing : GameState.building;
 
     }

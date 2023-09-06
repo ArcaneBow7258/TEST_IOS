@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8fb7eee4066387478820a011ba88709, type: 3}
   m_Name: Plant_Tomato
   m_EditorClassIdentifier: 
+  id: tomato
   stack_size: 16
   inventory_image: {fileID: 610884384, guid: 0b3263871b18ef345a6f211be6b5145b, type: 3}
   type: 0
+  prefab: {fileID: 0}
+  altSprites: []
+  size: {x: 0, y: 0}
   stages:
   - {fileID: -227711867, guid: 0b3263871b18ef345a6f211be6b5145b, type: 3}
   - {fileID: 1149531523, guid: 0b3263871b18ef345a6f211be6b5145b, type: 3}

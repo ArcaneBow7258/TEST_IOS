@@ -10,6 +10,7 @@ public enum Item_Type{
 }
 
 public abstract class Item: ScriptableObject{
+    public string id;
     public int stack_size;
     public Sprite inventory_image;
     public Item_Type type;

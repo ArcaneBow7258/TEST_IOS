@@ -8,10 +8,11 @@ public enum GameState{
 
 }
 public class Game_Manager : MonoBehaviour
-{
+{   
     public static Game_Manager Instance;
     public GameState game_state = GameState.playing;
     public List<Plant_Growth> plants= new List<Plant_Growth>();
+    public List<GameObject> buildings =  new List<GameObject>();
     // Start is called before the first frame update
     void Awake(){
         if(Instance == null){

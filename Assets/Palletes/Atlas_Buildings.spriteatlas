@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_Buildings
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 1739198437, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 1682263289, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 9882905, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 2072838021, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 399273421, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 1935920574, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: -474486462, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: -1118555420, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 753075500, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    - {fileID: 895648742, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 2dce9819b75f6274abb068e5600e8b06: 1739198437
+    - 2dce9819b75f6274abb068e5600e8b06: 1682263289
+    - 2dce9819b75f6274abb068e5600e8b06: 9882905
+    - 2dce9819b75f6274abb068e5600e8b06: 2072838021
+    - 2dce9819b75f6274abb068e5600e8b06: 399273421
+    - 2dce9819b75f6274abb068e5600e8b06: 1935920574
+    - 2dce9819b75f6274abb068e5600e8b06: -474486462
+    - 2dce9819b75f6274abb068e5600e8b06: -1118555420
+    - 2dce9819b75f6274abb068e5600e8b06: 895648742
+    - 2dce9819b75f6274abb068e5600e8b06: 753075500
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1739198437, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 1682263289, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 9882905, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 2072838021, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 399273421, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 1935920574, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: -474486462, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: -1118555420, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 895648742, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  - {fileID: 753075500, guid: 2dce9819b75f6274abb068e5600e8b06, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Wall_Wood_0
+  - Wall_Wood_1
+  - Wall_Wood_2
+  - Wall_Wood_3
+  - Wall_Wood_4
+  - Wall_Wood_5
+  - Wall_Wood_6
+  - Wall_Wood_7
+  - Floor_Wood_8
+  - Wall_Wood_Window
+  m_RenderDataMap: {}
+  m_Tag: Atlas_Buildings
+  m_IsVariant: 0

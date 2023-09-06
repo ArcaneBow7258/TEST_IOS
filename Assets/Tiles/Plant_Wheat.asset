@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: highlight_red_2
+  m_Script: {fileID: 11500000, guid: 995d130de638e1247a3c5c438fd99e54, type: 3}
+  m_Name: Plant_Wheat
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 1840846157, guid: 87dc386577964b343aba181c10b1175d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -31,6 +31,9 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 1
-  m_InstancedGameObject: {fileID: 0}
+  m_InstancedGameObject: {fileID: 2394751341032165898, guid: 8a23ebb42899c2047919a2e6d26395b3,
+    type: 3}
   m_Flags: 1
   m_ColliderType: 1
+  id: wheat
+  type: 2
